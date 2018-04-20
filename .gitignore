@@ -1,0 +1,17 @@
+
+
+# dependencies
+/node_modules
+/demo/node_modules
+
+# IDEs and editors
+/.idea
+/.iml
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db

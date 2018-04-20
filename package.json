@@ -1,0 +1,64 @@
+{
+  "name": "ng-video-upload",
+  "version": "0.0.1",
+  "description": "Angular2+ asynchronous video uploader with preview",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "ngc": "ngc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run ngc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSkyNet/ng-video-upload.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular4",
+    "angular5",
+    "ng2",
+    "img",
+    "video",
+    "uploader"
+  ],
+  "authors": [
+    "Kevin  Morton <kev@kev.biz>",
+    "Olegas Gončarovas <Olegas@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheSkyNet/ng-video-upload/issues"
+  },
+  "homepage": "https://github.com/TheSkyNet/ng-video-upload#readme",
+  "peerDependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0"
+  },
+  "dependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@types/cropperjs": "1.1.0",
+    "core-js": "^2.4.1",
+    "cropperjs": "^1.1.3",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^5.0.0",
+    "@types/node": "~6.0.60",
+    "typescript": "~2.4.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
