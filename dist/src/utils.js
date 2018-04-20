@@ -1,5 +1,5 @@
 export function createVideo(url, cb) {
-    var video = new HTMLVideoElement();
+    var video = new HTMLVideoElement;
     video.onload = function () {
         cb(video);
     };
