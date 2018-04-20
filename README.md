@@ -32,7 +32,7 @@ Use it in your component
 
 ```js
 import { Component } from '@angular/core';
-import { VideoUploaderModule, VideoUploaderOptions, UploadedFile } from 'ng-video-upload';
+import { VideoUploaderModuleVideoUploaderOptions, UploadedFile } from 'ng-video-upload';
 
 @Component({
   selector: 'example-app',
@@ -43,7 +43,7 @@ export class AppComponent {
       thumbnailHeight: 150,
       thumbnailWidth: 150,
       uploadUrl: 'http://some-server.com/upload',
-      allowedVideoTypes: ['video/png', 'video/jpeg'],
+      allowedVideoTypes: ['video/mp4'],
       maxVideoSize: 3
   };
   

@@ -11,7 +11,7 @@ export class Home {
       thumbnailHeight: 200,
       thumbnailWidth: 200,
       uploadUrl: 'https://video-uploader-demo.azurewebsites.net/api/demo/upload',
-      allowedVideoTypes: ['video/png', 'video/jpeg'],
+      allowedVideoTypes: ['video/mp4'],
       maxVideoSize: 3
   };
 
